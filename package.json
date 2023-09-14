@@ -1,24 +1,26 @@
 {
-  "name": "weather_report",
-  "version": "0.1.0",
-  "description": "Weather report server serving fake data",
-  "main": "server.js",
+  "name": "swa_assignment_1",
+  "version": "1.0.0",
+  "description": "A simple web page for swa assignment",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node scripts/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olehougaard/weather_report.git"
+    "url": "git+https://github.com/nickcernean/SWA_Assignment_1.git"
   },
-  "author": "Ole Ildsgaard Hougaard",
-  "license": "Apache-2.0",
+  "keywords": [
+    "none"
+  ],
+  "author": "none",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/olehougaard/weather_report/issues"
+    "url": "https://github.com/nickcernean/SWA_Assignment_1/issues"
   },
-  "homepage": "https://github.com/olehougaard/weather_report#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "ws": "^7.1.1"
-  }
+  "homepage": "https://github.com/nickcernean/SWA_Assignment_1#readme"
 }
